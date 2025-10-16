@@ -1,37 +1,55 @@
-# 📊 Customer Churn Prediction | Прогноз оттока клиентов
+# Прогнозирование оттока клиентов / Customer Churn Prediction
 
-<div align="center">
+## Описание проекта / Project Description
+Русский:
+- Задача: Прогнозирование вероятности оттока клиентов телеком-компании на основе исторических данных
+- Модель: Бинарная классификация с использованием ML-алгоритмов
+- Данные: Используется датасет [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) с Kaggle
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2%2B-orange?logo=scikit-learn)
-![Pandas](https://img.shields.io/badge/Pandas-1.5%2B-lightblue?logo=pandas)
-![License](https://img.shields.io/badge/License-MIT-green)
+English:
+- Task: Predicting customer churn probability for a telecom company based on historical data
+- Model: Binary classification using ML algorithms
+- Data: [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) dataset from Kaggle
 
-**ML проект для прогнозирования оттока клиентов телеком-компании**  
-*Точное предсказание ухода клиентов с помощью машинного обучения*
+## Структура проекта / Project Structure
 
-</div>
+project/
+├── data/ # Исходные данные и предобработанные данные
+│ ├── raw/ # Исходные данные
+│ └── processed/ # Предобработанные данные
+├── notebooks/ # Jupyter ноутбуки с исследованиями
+├── src/ # Исходный код проекта
+│ ├── data_preprocessing.py
+│ ├── feature_engineering.py
+│ ├── model_training.py
+│ └── config.py
+├── models/ # Сохраненные модели
+├── reports/ # Отчеты и визуализации
+└── README.md
 
-## 🎯 О проекте / About Project
+## Метрики качества / Quality Metrics
+- **F1-Score** (баланс между precision и recall)
+- **Precision** (точность предсказания оттока)
+- **Recall** (полнота выявления оттока)
+- **AUC-ROC** (площадь под ROC-кривой)
 
-### 🇷🇺 Русская версия
-**Задача**: Разработать модель машинного обучения для прогнозирования вероятности ухода клиентов из телеком-компании на основе исторических данных.
+## Установка и запуск / Installation & Usage
+1. Клонировать репозиторий:
 
-**Цель**: Снижение оттока клиентов за счет своевременного выявления "групп риска" и принятия превентивных мер.
+```bash
+git clone <repository-url>
+cd customer-churn-prediction
+```
 
-**Ключевые особенности**:
-- 🔍 Анализ поведения клиентов
-- 📈 Множество признаков: демография, транзакции, поддержка
-- 🤖 Несколько ML-алгоритмов
-- 📊 Подробная визуализация результатов
+2. Установить зависимости:
 
-### 🇺🇸 English Version
-**Task**: Develop a machine learning model to predict customer churn probability for a telecom company based on historical data.
+```
+text
+pip install -r requirements.txt
+```
 
-**Goal**: Reduce customer churn by identifying at-risk groups and taking preventive measures.
+3. Запустить базовый ноутбук или main.py с указанием путей к данным.
 
-**Key Features**:
-- 🔍 Customer behavior analysis
-- 📈 Multiple features: demographics, transactions, support
-- 🤖 Multiple ML algorithms
-- 📊 Detailed results visualization
+
+## Лицензия и источники данных
+Проект реализован исключительно для учебных и исследовательских целей.
