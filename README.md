@@ -1,15 +1,9 @@
 # Прогнозирование оттока клиентов / Customer Churn Prediction
 
 ## Описание проекта / Project Description
-Русский:
-- Задача: Прогнозирование вероятности оттока клиентов телеком-компании на основе исторических данных
-- Модель: Бинарная классификация с использованием ML-алгоритмов
-- Данные: Используется датасет [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) с Kaggle
-
-English:
-- Task: Predicting customer churn probability for a telecom company based on historical data
-- Model: Binary classification using ML algorithms
-- Data: [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) dataset from Kaggle
+- **Задача**: Прогнозирование вероятности оттока клиентов телеком-компании на основе исторических данных
+- **Модель**: Бинарная классификация с использованием ML-алгоритмов
+- **Данные**: Используется датасет [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) с Kaggle
 
 ## Метрики качества / Quality Metrics
 - **F1-Score** (баланс между precision и recall)
