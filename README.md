@@ -11,22 +11,6 @@ English:
 - Model: Binary classification using ML algorithms
 - Data: [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) dataset from Kaggle
 
-## Структура проекта / Project Structure
-
-project/
-├── data/ # Исходные данные и предобработанные данные
-│ ├── raw/ # Исходные данные
-│ └── processed/ # Предобработанные данные
-├── notebooks/ # Jupyter ноутбуки с исследованиями
-├── src/ # Исходный код проекта
-│ ├── data_preprocessing.py
-│ ├── feature_engineering.py
-│ ├── model_training.py
-│ └── config.py
-├── models/ # Сохраненные модели
-├── reports/ # Отчеты и визуализации
-└── README.md
-
 ## Метрики качества / Quality Metrics
 - **F1-Score** (баланс между precision и recall)
 - **Precision** (точность предсказания оттока)
