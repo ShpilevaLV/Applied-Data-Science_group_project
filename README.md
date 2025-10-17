@@ -1,17 +1,17 @@
 # Прогнозирование оттока клиентов / Customer Churn Prediction
 
-## Описание проекта / Project Description
+## Описание проекта
 - **Задача**: Прогнозирование вероятности оттока клиентов телеком-компании на основе исторических данных
 - **Модель**: Бинарная классификация с использованием ML-алгоритмов
 - **Данные**: Используется датасет [Telco Customer Churn](https://www.kaggle.com/competitions/bank-churn-competition-by-ipii-hs-ex-mts/overview) с Kaggle
 
-## Метрики качества / Quality Metrics
+## Метрики качества
 - **F1-Score** (баланс между precision и recall)
 - **Precision** (точность предсказания оттока)
 - **Recall** (полнота выявления оттока)
 - **AUC-ROC** (площадь под ROC-кривой)
 
-## Установка и запуск / Installation & Usage
+## Установка и запуск
 1. Клонировать репозиторий:
 
 ```bash
